@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JavaScript Tasks</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main>
+    <h1>JavaScript Tasks</h1>
+
+    <section class="card">
+      <h2>1. Color-Changing Button</h2>
+      <p>Click the button to cycle through colors.</p>
+      <button type="button" id="colorBtn">Click me</button>
+    </section>
+
+    <section class="card">
+      <h2>2. Time-Based Greeting</h2>
+      <p>Click to see a greeting based on the current time of day.</p>
+      <button type="button" id="greetingBtn">Show greeting</button>
+    </section>
+
+    <section class="card">
+      <h2>3. Basic Calculator</h2>
+      <p>Add two numbers together.</p>
+      <form id="calculatorForm">
+        <label>
+          First number
+          <input type="number" id="num1" step="any" required>
+        </label>
+        <label>
+          Second number
+          <input type="number" id="num2" step="any" required>
+        </label>
+        <button type="submit">Add</button>
+      </form>
+      <p id="result" class="result" aria-live="polite"></p>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
